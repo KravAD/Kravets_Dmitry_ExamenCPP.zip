@@ -82,11 +82,11 @@ build OperacionesBasicas.exe: CXX_EXECUTABLE_LINKER__OperacionesBasicas_Debug CM
 
 build cmake_object_order_depends_target_Estudiante: phony || CMakeFiles/Estudiante.dir
 
-build CMakeFiles/Estudiante.dir/estudiante.cpp.obj: CXX_COMPILER__Estudiante_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/estudiante.cpp || cmake_object_order_depends_target_Estudiante
-  DEP_FILE = CMakeFiles\Estudiante.dir\estudiante.cpp.obj.d
+build CMakeFiles/Estudiante.dir/gestión_de_estudiante/estudiante.cpp.obj: CXX_COMPILER__Estudiante_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/gestión$ de$ estudiante/estudiante.cpp || cmake_object_order_depends_target_Estudiante
+  DEP_FILE = CMakeFiles\Estudiante.dir\gestión_de_estudiante\estudiante.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Estudiante.dir
-  OBJECT_FILE_DIR = CMakeFiles\Estudiante.dir
+  OBJECT_FILE_DIR = CMakeFiles\Estudiante.dir\gestión_de_estudiante
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/Estudiante.dir/estudiante.cpp.obj: CXX_COMPILER__Estudiante_uns
 #############################################
 # Link the executable Estudiante.exe
 
-build Estudiante.exe: CXX_EXECUTABLE_LINKER__Estudiante_Debug CMakeFiles/Estudiante.dir/estudiante.cpp.obj
+build Estudiante.exe: CXX_EXECUTABLE_LINKER__Estudiante_Debug CMakeFiles/Estudiante.dir/gestión_de_estudiante/estudiante.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Estudiante.dir
