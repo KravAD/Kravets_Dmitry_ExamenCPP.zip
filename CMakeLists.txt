@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(OperacionesBasicas "operaciones básicas/opBas.cpp")
 add_executable(Estudiante "gestión de estudiante/estudiante.cpp")
+add_executable(OptMemoria optMemoria.cpp)
+add_executable(excepciones ManejoExcep.cpp)

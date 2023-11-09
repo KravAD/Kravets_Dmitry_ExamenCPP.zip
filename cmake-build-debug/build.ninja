@@ -106,6 +106,72 @@ build Estudiante.exe: CXX_EXECUTABLE_LINKER__Estudiante_Debug CMakeFiles/Estudia
   TARGET_IMPLIB = libEstudiante.dll.a
   TARGET_PDB = Estudiante.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target OptMemoria
+
+
+#############################################
+# Order-only phony target for OptMemoria
+
+build cmake_object_order_depends_target_OptMemoria: phony || CMakeFiles/OptMemoria.dir
+
+build CMakeFiles/OptMemoria.dir/optMemoria.cpp.obj: CXX_COMPILER__OptMemoria_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/optMemoria.cpp || cmake_object_order_depends_target_OptMemoria
+  DEP_FILE = CMakeFiles\OptMemoria.dir\optMemoria.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OptMemoria.dir
+  OBJECT_FILE_DIR = CMakeFiles\OptMemoria.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OptMemoria
+
+
+#############################################
+# Link the executable OptMemoria.exe
+
+build OptMemoria.exe: CXX_EXECUTABLE_LINKER__OptMemoria_Debug CMakeFiles/OptMemoria.dir/optMemoria.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OptMemoria.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OptMemoria.exe
+  TARGET_IMPLIB = libOptMemoria.dll.a
+  TARGET_PDB = OptMemoria.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target excepciones
+
+
+#############################################
+# Order-only phony target for excepciones
+
+build cmake_object_order_depends_target_excepciones: phony || CMakeFiles/excepciones.dir
+
+build CMakeFiles/excepciones.dir/ManejoExcep.cpp.obj: CXX_COMPILER__excepciones_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/ManejoExcep.cpp || cmake_object_order_depends_target_excepciones
+  DEP_FILE = CMakeFiles\excepciones.dir\ManejoExcep.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\excepciones.dir
+  OBJECT_FILE_DIR = CMakeFiles\excepciones.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target excepciones
+
+
+#############################################
+# Link the executable excepciones.exe
+
+build excepciones.exe: CXX_EXECUTABLE_LINKER__excepciones_Debug CMakeFiles/excepciones.dir/ManejoExcep.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\excepciones.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = excepciones.exe
+  TARGET_IMPLIB = libexcepciones.dll.a
+  TARGET_PDB = excepciones.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,6 +202,10 @@ build Estudiante: phony Estudiante.exe
 
 build OperacionesBasicas: phony OperacionesBasicas.exe
 
+build OptMemoria: phony OptMemoria.exe
+
+build excepciones: phony excepciones.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +214,7 @@ build OperacionesBasicas: phony OperacionesBasicas.exe
 #############################################
 # Folder: C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug
 
-build all: phony OperacionesBasicas.exe Estudiante.exe
+build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe
 
 # =============================================================================
 # Built-in targets
