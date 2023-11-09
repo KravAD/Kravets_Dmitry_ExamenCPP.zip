@@ -4,5 +4,6 @@ C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/excepciones.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/Promedio.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/ausencia.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/FiltroGrado.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

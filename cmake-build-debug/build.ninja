@@ -238,6 +238,39 @@ build ausencia.exe: CXX_EXECUTABLE_LINKER__ausencia_Debug CMakeFiles/ausencia.di
   TARGET_IMPLIB = libausencia.dll.a
   TARGET_PDB = ausencia.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FiltroGrado
+
+
+#############################################
+# Order-only phony target for FiltroGrado
+
+build cmake_object_order_depends_target_FiltroGrado: phony || CMakeFiles/FiltroGrado.dir
+
+build CMakeFiles/FiltroGrado.dir/FiltroGrado.cpp.obj: CXX_COMPILER__FiltroGrado_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/FiltroGrado.cpp || cmake_object_order_depends_target_FiltroGrado
+  DEP_FILE = CMakeFiles\FiltroGrado.dir\FiltroGrado.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FiltroGrado.dir
+  OBJECT_FILE_DIR = CMakeFiles\FiltroGrado.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FiltroGrado
+
+
+#############################################
+# Link the executable FiltroGrado.exe
+
+build FiltroGrado.exe: CXX_EXECUTABLE_LINKER__FiltroGrado_Debug CMakeFiles/FiltroGrado.dir/FiltroGrado.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FiltroGrado.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FiltroGrado.exe
+  TARGET_IMPLIB = libFiltroGrado.dll.a
+  TARGET_PDB = FiltroGrado.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -266,6 +299,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Estudiante: phony Estudiante.exe
 
+build FiltroGrado: phony FiltroGrado.exe
+
 build OperacionesBasicas: phony OperacionesBasicas.exe
 
 build OptMemoria: phony OptMemoria.exe
@@ -284,7 +319,7 @@ build excepciones: phony excepciones.exe
 #############################################
 # Folder: C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug
 
-build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe Promedio.exe ausencia.exe
+build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe Promedio.exe ausencia.exe FiltroGrado.exe
 
 # =============================================================================
 # Built-in targets
