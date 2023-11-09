@@ -4,19 +4,24 @@ using namespace std;
 
 class Estudiante {
 public:
-    estudiante (string nombre, int edad, string grado) : nombre_(nombre), edad_(edad), grado_(grado) {}
-    string nombre() const { return nombre_; }
-    int edad() const { return edad_;}
-    string grado() const { return grado_; }
+    Estudiante (string nombre, int edad, string grado) : nombre_(nombre), edad_(edad), grado_(grado) {}
+
+    void mostrar_info() const {
+        cout << "Nombre: " << nombre_ << endl;
+        cout << "Edad: " << edad_ << endl;
+        cout << "Grado: " << grado_ << endl;
+    }
+
 private:
     string nombre_;
     int edad_;
-}
+    string grado_;
+};
 
-int mostrar_info(){
-    cout << "Nombre: " << nombre() << endl;
-    cout << "Edad: " << edad() << endl;
-    cout << "Grado: " << grado() << endl;
-}
 
+int main() {
+    Estudiante estudiante("Pedro Pascal Ramirez", 18, "Ingeniería de Telecomunicaciones");
+    estudiante.mostrar_info();
+    return 0;
+}
 
