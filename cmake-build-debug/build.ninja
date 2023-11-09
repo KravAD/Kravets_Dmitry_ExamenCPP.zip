@@ -271,6 +271,39 @@ build FiltroGrado.exe: CXX_EXECUTABLE_LINKER__FiltroGrado_Debug CMakeFiles/Filtr
   TARGET_IMPLIB = libFiltroGrado.dll.a
   TARGET_PDB = FiltroGrado.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target profesores
+
+
+#############################################
+# Order-only phony target for profesores
+
+build cmake_object_order_depends_target_profesores: phony || CMakeFiles/profesores.dir
+
+build CMakeFiles/profesores.dir/profesores.cpp.obj: CXX_COMPILER__profesores_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/profesores.cpp || cmake_object_order_depends_target_profesores
+  DEP_FILE = CMakeFiles\profesores.dir\profesores.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\profesores.dir
+  OBJECT_FILE_DIR = CMakeFiles\profesores.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target profesores
+
+
+#############################################
+# Link the executable profesores.exe
+
+build profesores.exe: CXX_EXECUTABLE_LINKER__profesores_Debug CMakeFiles/profesores.dir/profesores.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\profesores.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = profesores.exe
+  TARGET_IMPLIB = libprofesores.dll.a
+  TARGET_PDB = profesores.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +344,8 @@ build ausencia: phony ausencia.exe
 
 build excepciones: phony excepciones.exe
 
+build profesores: phony profesores.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +354,7 @@ build excepciones: phony excepciones.exe
 #############################################
 # Folder: C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug
 
-build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe Promedio.exe ausencia.exe FiltroGrado.exe
+build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe Promedio.exe ausencia.exe FiltroGrado.exe profesores.exe
 
 # =============================================================================
 # Built-in targets
