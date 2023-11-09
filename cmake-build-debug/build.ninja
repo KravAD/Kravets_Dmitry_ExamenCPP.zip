@@ -148,11 +148,11 @@ build OptMemoria.exe: CXX_EXECUTABLE_LINKER__OptMemoria_Debug CMakeFiles/OptMemo
 
 build cmake_object_order_depends_target_excepciones: phony || CMakeFiles/excepciones.dir
 
-build CMakeFiles/excepciones.dir/ManejoExcep.cpp.obj: CXX_COMPILER__excepciones_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/ManejoExcep.cpp || cmake_object_order_depends_target_excepciones
-  DEP_FILE = CMakeFiles\excepciones.dir\ManejoExcep.cpp.obj.d
+build CMakeFiles/excepciones.dir/manejo_de_excepciones/ManejoExcep.cpp.obj: CXX_COMPILER__excepciones_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/manejo$ de$ excepciones/ManejoExcep.cpp || cmake_object_order_depends_target_excepciones
+  DEP_FILE = CMakeFiles\excepciones.dir\manejo_de_excepciones\ManejoExcep.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\excepciones.dir
-  OBJECT_FILE_DIR = CMakeFiles\excepciones.dir
+  OBJECT_FILE_DIR = CMakeFiles\excepciones.dir\manejo_de_excepciones
 
 
 # =============================================================================
@@ -162,7 +162,7 @@ build CMakeFiles/excepciones.dir/ManejoExcep.cpp.obj: CXX_COMPILER__excepciones_
 #############################################
 # Link the executable excepciones.exe
 
-build excepciones.exe: CXX_EXECUTABLE_LINKER__excepciones_Debug CMakeFiles/excepciones.dir/ManejoExcep.cpp.obj
+build excepciones.exe: CXX_EXECUTABLE_LINKER__excepciones_Debug CMakeFiles/excepciones.dir/manejo_de_excepciones/ManejoExcep.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\excepciones.dir
