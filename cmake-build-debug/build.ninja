@@ -214,11 +214,11 @@ build Promedio.exe: CXX_EXECUTABLE_LINKER__Promedio_Debug CMakeFiles/Promedio.di
 
 build cmake_object_order_depends_target_ausencia: phony || CMakeFiles/ausencia.dir
 
-build CMakeFiles/ausencia.dir/ausencia.cpp.obj: CXX_COMPILER__ausencia_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/ausencia.cpp || cmake_object_order_depends_target_ausencia
-  DEP_FILE = CMakeFiles\ausencia.dir\ausencia.cpp.obj.d
+build CMakeFiles/ausencia.dir/manejo_de_ausencia/ausencia.cpp.obj: CXX_COMPILER__ausencia_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/manejo$ de$ ausencia/ausencia.cpp || cmake_object_order_depends_target_ausencia
+  DEP_FILE = CMakeFiles\ausencia.dir\manejo_de_ausencia\ausencia.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ausencia.dir
-  OBJECT_FILE_DIR = CMakeFiles\ausencia.dir
+  OBJECT_FILE_DIR = CMakeFiles\ausencia.dir\manejo_de_ausencia
 
 
 # =============================================================================
@@ -228,7 +228,7 @@ build CMakeFiles/ausencia.dir/ausencia.cpp.obj: CXX_COMPILER__ausencia_unscanned
 #############################################
 # Link the executable ausencia.exe
 
-build ausencia.exe: CXX_EXECUTABLE_LINKER__ausencia_Debug CMakeFiles/ausencia.dir/ausencia.cpp.obj
+build ausencia.exe: CXX_EXECUTABLE_LINKER__ausencia_Debug CMakeFiles/ausencia.dir/manejo_de_ausencia/ausencia.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ausencia.dir
