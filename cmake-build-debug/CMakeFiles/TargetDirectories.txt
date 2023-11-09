@@ -1,0 +1,3 @@
+C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/OperacionesBasicas.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
