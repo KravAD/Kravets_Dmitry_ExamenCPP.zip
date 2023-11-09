@@ -2,5 +2,6 @@ C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/Estudiante.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/OptMemoria.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/excepciones.dir
+C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/Promedio.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -61,6 +63,13 @@
 					"id" : "OptMemoria::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-OptMemoria-Debug-07ae2a12327663e6fecf.json",
 					"name" : "OptMemoria",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Promedio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Promedio-Debug-205f01c72a0694921023.json",
+					"name" : "Promedio",
 					"projectIndex" : 0
 				},
 				{
