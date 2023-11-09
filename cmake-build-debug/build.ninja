@@ -181,11 +181,11 @@ build excepciones.exe: CXX_EXECUTABLE_LINKER__excepciones_Debug CMakeFiles/excep
 
 build cmake_object_order_depends_target_Promedio: phony || CMakeFiles/Promedio.dir
 
-build CMakeFiles/Promedio.dir/CalcPromedio.cpp.obj: CXX_COMPILER__Promedio_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/CalcPromedio.cpp || cmake_object_order_depends_target_Promedio
-  DEP_FILE = CMakeFiles\Promedio.dir\CalcPromedio.cpp.obj.d
+build CMakeFiles/Promedio.dir/promedio_del_estudiante/CalcPromedio.cpp.obj: CXX_COMPILER__Promedio_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/promedio$ del$ estudiante/CalcPromedio.cpp || cmake_object_order_depends_target_Promedio
+  DEP_FILE = CMakeFiles\Promedio.dir\promedio_del_estudiante\CalcPromedio.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Promedio.dir
-  OBJECT_FILE_DIR = CMakeFiles\Promedio.dir
+  OBJECT_FILE_DIR = CMakeFiles\Promedio.dir\promedio_del_estudiante
 
 
 # =============================================================================
@@ -195,7 +195,7 @@ build CMakeFiles/Promedio.dir/CalcPromedio.cpp.obj: CXX_COMPILER__Promedio_unsca
 #############################################
 # Link the executable Promedio.exe
 
-build Promedio.exe: CXX_EXECUTABLE_LINKER__Promedio_Debug CMakeFiles/Promedio.dir/CalcPromedio.cpp.obj
+build Promedio.exe: CXX_EXECUTABLE_LINKER__Promedio_Debug CMakeFiles/Promedio.dir/promedio_del_estudiante/CalcPromedio.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Promedio.dir
@@ -204,6 +204,39 @@ build Promedio.exe: CXX_EXECUTABLE_LINKER__Promedio_Debug CMakeFiles/Promedio.di
   TARGET_FILE = Promedio.exe
   TARGET_IMPLIB = libPromedio.dll.a
   TARGET_PDB = Promedio.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ausencia
+
+
+#############################################
+# Order-only phony target for ausencia
+
+build cmake_object_order_depends_target_ausencia: phony || CMakeFiles/ausencia.dir
+
+build CMakeFiles/ausencia.dir/ausencia.cpp.obj: CXX_COMPILER__ausencia_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/ausencia.cpp || cmake_object_order_depends_target_ausencia
+  DEP_FILE = CMakeFiles\ausencia.dir\ausencia.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ausencia.dir
+  OBJECT_FILE_DIR = CMakeFiles\ausencia.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ausencia
+
+
+#############################################
+# Link the executable ausencia.exe
+
+build ausencia.exe: CXX_EXECUTABLE_LINKER__ausencia_Debug CMakeFiles/ausencia.dir/ausencia.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ausencia.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ausencia.exe
+  TARGET_IMPLIB = libausencia.dll.a
+  TARGET_PDB = ausencia.exe.dbg
 
 
 #############################################
@@ -239,6 +272,8 @@ build OptMemoria: phony OptMemoria.exe
 
 build Promedio: phony Promedio.exe
 
+build ausencia: phony ausencia.exe
+
 build excepciones: phony excepciones.exe
 
 # =============================================================================
@@ -249,7 +284,7 @@ build excepciones: phony excepciones.exe
 #############################################
 # Folder: C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug
 
-build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe Promedio.exe
+build all: phony OperacionesBasicas.exe Estudiante.exe OptMemoria.exe excepciones.exe Promedio.exe ausencia.exe
 
 # =============================================================================
 # Built-in targets

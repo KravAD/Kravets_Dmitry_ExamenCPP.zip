@@ -1,11 +1,13 @@
 # ninja log v5
 0	312	7212301428360728	CMakeFiles/OperacionesBasicas.dir/opBas.cpp.obj	6ca8382d34a20351
 0	772	7212324612349643	CMakeFiles/excepciones.dir/ManejoExcep.cpp.obj	4e0494e5baa2fb3d
+3	272	7212341685423844	CMakeFiles/Promedio.dir/CalcPromedio.cpp.obj	2220cb4a0990bf38
 321	394	7212302689221473	OperacionesBasicas.exe	77186b229fec0cc8
 0	319	7212302688501272	CMakeFiles/OperacionesBasicas.dir/operaciones_básicas/opBas.cpp.obj	6993ef9b0fcc83ba
 0	238	7212317357153315	CMakeFiles/Estudiante.dir/estudiante.cpp.obj	c663e907e4e72465
-0	209	7212334402856216	build.ninja	613157436db50b93
+0	209	7212342932856409	build.ninja	613157436db50b93
 316	391	7212331253099356	Estudiante.exe	572d6597c0de188d
 2	316	7212331252379707	CMakeFiles/Estudiante.dir/gestión_de_estudiante/estudiante.cpp.obj	3a303b0ac77dfea1
 226	286	7212325054460243	excepciones.exe	183c6f1abd8967f1
 3	226	7212325053897168	CMakeFiles/excepciones.dir/manejo_de_excepciones/ManejoExcep.cpp.obj	6878a762e96cde4b
+272	343	7212341686102505	Promedio.exe	fef28a0743bb93d3

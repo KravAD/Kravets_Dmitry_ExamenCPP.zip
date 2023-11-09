@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -68,8 +70,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Promedio::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Promedio-Debug-205f01c72a0694921023.json",
+					"jsonFile" : "target-Promedio-Debug-fbede9e362dcdefbe7be.json",
 					"name" : "Promedio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ausencia::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ausencia-Debug-7291281cb45007e192bd.json",
+					"name" : "ausencia",
 					"projectIndex" : 0
 				},
 				{
