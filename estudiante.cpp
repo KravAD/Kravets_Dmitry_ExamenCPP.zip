@@ -13,6 +13,10 @@ private:
     int edad_;
 }
 
-
+int mostrar_info(){
+    cout << "Nombre: " << nombre() << endl;
+    cout << "Edad: " << edad() << endl;
+    cout << "Grado: " << grado() << endl;
+}
 
 
