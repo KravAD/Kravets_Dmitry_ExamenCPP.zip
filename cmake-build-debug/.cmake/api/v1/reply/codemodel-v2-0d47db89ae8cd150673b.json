@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "ExamenT1",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 			[
 				{
 					"directoryIndex" : 0,
+					"id" : "Estudiante::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Estudiante-Debug-f9b3df2c416d0bec3dbf.json",
+					"name" : "Estudiante",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "OperacionesBasicas::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OperacionesBasicas-Debug-3e5113bc1304680d5cb3.json",
+					"jsonFile" : "target-OperacionesBasicas-Debug-89ba412ed41b1292a11d.json",
 					"name" : "OperacionesBasicas",
 					"projectIndex" : 0
 				}

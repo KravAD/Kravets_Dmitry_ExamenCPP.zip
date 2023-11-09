@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-
 
 build cmake_object_order_depends_target_OperacionesBasicas: phony || CMakeFiles/OperacionesBasicas.dir
 
-build CMakeFiles/OperacionesBasicas.dir/opBas.cpp.obj: CXX_COMPILER__OperacionesBasicas_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/opBas.cpp || cmake_object_order_depends_target_OperacionesBasicas
-  DEP_FILE = CMakeFiles\OperacionesBasicas.dir\opBas.cpp.obj.d
+build CMakeFiles/OperacionesBasicas.dir/operaciones_básicas/opBas.cpp.obj: CXX_COMPILER__OperacionesBasicas_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/operaciones$ básicas/opBas.cpp || cmake_object_order_depends_target_OperacionesBasicas
+  DEP_FILE = CMakeFiles\OperacionesBasicas.dir\operaciones_básicas\opBas.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\OperacionesBasicas.dir
-  OBJECT_FILE_DIR = CMakeFiles\OperacionesBasicas.dir
+  OBJECT_FILE_DIR = CMakeFiles\OperacionesBasicas.dir\operaciones_básicas
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/OperacionesBasicas.dir/opBas.cpp.obj: CXX_COMPILER__Operaciones
 #############################################
 # Link the executable OperacionesBasicas.exe
 
-build OperacionesBasicas.exe: CXX_EXECUTABLE_LINKER__OperacionesBasicas_Debug CMakeFiles/OperacionesBasicas.dir/opBas.cpp.obj
+build OperacionesBasicas.exe: CXX_EXECUTABLE_LINKER__OperacionesBasicas_Debug CMakeFiles/OperacionesBasicas.dir/operaciones_básicas/opBas.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\OperacionesBasicas.dir
@@ -72,6 +72,39 @@ build OperacionesBasicas.exe: CXX_EXECUTABLE_LINKER__OperacionesBasicas_Debug CM
   TARGET_FILE = OperacionesBasicas.exe
   TARGET_IMPLIB = libOperacionesBasicas.dll.a
   TARGET_PDB = OperacionesBasicas.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Estudiante
+
+
+#############################################
+# Order-only phony target for Estudiante
+
+build cmake_object_order_depends_target_Estudiante: phony || CMakeFiles/Estudiante.dir
+
+build CMakeFiles/Estudiante.dir/estudiante.cpp.obj: CXX_COMPILER__Estudiante_unscanned_Debug C$:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/estudiante.cpp || cmake_object_order_depends_target_Estudiante
+  DEP_FILE = CMakeFiles\Estudiante.dir\estudiante.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Estudiante.dir
+  OBJECT_FILE_DIR = CMakeFiles\Estudiante.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Estudiante
+
+
+#############################################
+# Link the executable Estudiante.exe
+
+build Estudiante.exe: CXX_EXECUTABLE_LINKER__Estudiante_Debug CMakeFiles/Estudiante.dir/estudiante.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Estudiante.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Estudiante.exe
+  TARGET_IMPLIB = libEstudiante.dll.a
+  TARGET_PDB = Estudiante.exe.dbg
 
 
 #############################################
@@ -99,6 +132,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Estudiante: phony Estudiante.exe
+
 build OperacionesBasicas: phony OperacionesBasicas.exe
 
 # =============================================================================
@@ -109,7 +144,7 @@ build OperacionesBasicas: phony OperacionesBasicas.exe
 #############################################
 # Folder: C:/Users/krave/OneDrive/Documentos/GitHub/ExamenT1/cmake-build-debug
 
-build all: phony OperacionesBasicas.exe
+build all: phony OperacionesBasicas.exe Estudiante.exe
 
 # =============================================================================
 # Built-in targets

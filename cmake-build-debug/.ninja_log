@@ -1,3 +1,4 @@
 # ninja log v5
 0	312	7212301428360728	CMakeFiles/OperacionesBasicas.dir/opBas.cpp.obj	6ca8382d34a20351
-313	390	7212301429142769	OperacionesBasicas.exe	27e6f9d015558174
+321	394	7212302689221473	OperacionesBasicas.exe	77186b229fec0cc8
+0	319	7212302688501272	CMakeFiles/OperacionesBasicas.dir/operaciones_básicas/opBas.cpp.obj	6993ef9b0fcc83ba
